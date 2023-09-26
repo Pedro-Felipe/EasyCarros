@@ -1,0 +1,89 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    background-color: rgb(34, 34, 34);
+    
+}
+
+    :root {
+     /* Definindo 1rem para 10px */
+    font-size: 62.5%; 
+    }
+
+    .container-fluid{
+    background-color: rgb(34, 34, 34);
+    }
+
+    .logo {
+        margin: 2rem 4rem 2rem 4rem;
+    }
+
+
+    .titulo{
+        font-family: 'Krona One', sans-serif;
+        color: white;
+        font-size: 2.4rem;
+        margin: 0 4rem 1rem 4rem;
+    }
+
+    .titulo2 {
+        color: white;
+        font-family: 'Krona One', sans-serif;
+        margin: 0 4rem 2rem 4rem;
+        font-size: 1.6rem;
+    }
+
+    .texto{
+        color: white;
+        font-size: 1.3rem;
+        font-family: 'Karla', sans-serif;
+        margin: 0 4rem 1rem 4rem;
+    }
+
+    .campo {
+        background-color: rgba(255,255,255,0.3);
+        width: 23rem;
+        height: 3rem;
+        margin: 0 4rem 1rem 4rem;
+        text-align: center;
+        border-radius: 1rem;
+        color: white;
+    }
+
+    .alinhaend {
+        text-align: end;
+    }
+ 
+    .botao {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #61E0D9;
+        text-align: center;
+        border-radius: 2rem;
+        user-select: none;
+        cursor: pointer;
+
+
+    }
+
+    .botao:hover {
+        background-color: white;
+        color: black;
+        transition: background 1s;
+    }
+
+    .redes{
+        margin: 3rem 5rem 1.5rem 5rem;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+
+    .rodapetelalogin{
+        height: 11rem;
+        position: absolute;
+        bottom: 0;
+    }
