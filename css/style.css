@@ -216,8 +216,104 @@ input[type=file] {
     z-index: 1; 
   }
 
- 
-   
+  /* pagina explorar */
+
+  .img-Background-explorar {
+    position: relative;
+    width: 100vw
+}
+
+.img-Background-explorar img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-sob-explorar {
+    position: absolute; 
+    top:0;
+    color: white; 
+    padding: 1rem; 
+    margin-right: 40vw;
+    margin-left: 2rem;
+}
+
+.texto-sob-explorar > h1 {
+    font-family: 'Khand', sans-serif;
+    font-size: 2rem;
+}
+
+.texto-sob-explorar > p {
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.main-explorar{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    width: 80vw;
+    height: 26rem;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    font-family: 'Karla', sans-serif;
+  }
+  .card img {
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+  }
+  .card h1 {
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+  .card h2 {
+    font-size: 1.4rem;
+    color: #61E0D9;
+  }
+  .card button {
+    background-color: #61E0D9;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+  }
+  .card button:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .bottom-card img {
+    height: 1.5rem;
+  }
+
+  .card span {
+    font-size: 1.8rem;
+  }
+
+
+
+
 
 
 @media only screen and (min-width: 950px) {
@@ -361,8 +457,69 @@ input[type=file] {
     .text-perfil > p {
         font-size: 3.0rem;
     }
-    
 
+    /* Tela Explorar*/
+
+    .texto-sob-explorar {
+        position: absolute; 
+        top: 10%;
+        padding: 1rem; 
+        margin-right: 60vw;
+        margin-left: 4vw;
+    }
+    
+    .texto-sob-explorar > h1 {
+        font-size: 7.5rem;
+    }
+    
+    .texto-sob-explorar > p {
+        font-size: 1.6rem;
+    }
+    
+    .main-explorar {
+        gap:5vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 5vw; 
+        margin-bottom: 5vw;
+    }
+
+    .card img {
+        width: 100%;
+        height: 30vh;
+      }
+
+    .card {
+        width: calc(25% - 2rem); 
+        margin-right: 2rem; 
+    }
+
+    .card:last-child {
+        margin-right: 0;
+    }
+
+    .card h1 {
+        font-size: 2.8rem;
+     }
+
+    .card h2 {
+        font-size: 2rem;
+    }
+
+    .card button {
+        height: 6vh;
+        width: 50%;
+        font-size: 3rem;
+        margin-bottom: 1vw;
+    }
+
+      .bottom-card img {
+        height: 1.2vw;
+      }
+    
+      .card span {
+        font-size: 3rem;
+      }
 
 }
 
