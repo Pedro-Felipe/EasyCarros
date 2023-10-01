@@ -1,191 +1,252 @@
 * {
-    margin:0;
+    margin: 0;
 }
 
-    :root {
-     /* Definindo 1rem para 10px */
-    font-size: 62.5%; 
-    }
+:root {
+    /* Definindo 1rem para 10px */
+    font-size: 62.5%;
+}
 
-    .main-login{
-        width: 100vw;
-        height: 100vh;
-        background-color: rgb(34, 34, 34);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+/* Pagina de login */
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-    .left-login{
-        width: 80vw;
-        height:20vh;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        flex-direction: column;
-        background-color: rgb(34, 34, 34);
-    }
+.left-login {
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background-color: rgb(34, 34, 34);
+}
 
-    .left-login > h1 {
-        color: white;
-        font-family:'Krona One', sans-serif;
-        font-size: 7.5vw;
-    }
+.left-login>h1 {
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 7.5vw;
+}
 
-    .left-login > p {
-        color: white;
-        font-family: 'Karla', sans-serif;
+.left-login>p {
+    color: white;
+    font-family: 'Karla', sans-serif;
 
-    }
+}
 
-    .left-login > .logo {
-        margin-bottom: 3rem;
-        margin-top: 2rem;
-    }
-
-
-    .right-login{
-        width:80vw;
-        height: 60vh;
-        display: flex;
-        align-items: start;
-        flex-direction: column;
-        color: white;
-    }
-
-    .right-login > h1 {
-        color: white;
-        font-size: 1.6rem;
-        margin-bottom: 3rem;
-        font-family:'Krona One', sans-serif;
-    }
-
-    .textfield {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-
-    }
-
-    .textfield > input {
-        width: 80vw;
-        height: 2rem;
-        padding: 1.5rem;
-        border: none;
-        border-radius: 0.7rem;
-        background: rgba(255, 255, 255, 25%);
-        color: aliceblue;
-        font-size: 1rem;
-        box-shadow: 0px 10px 40px #00000056;
-        outline: none;
-        
-    }
-
-    .textfield > label{
-        font-family: 'Karla', sans-serif;
-        color: white;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-        font-size: 1.3rem;
-    }
-
-    .right-login > p {
-        margin-left: auto;
-        text-decoration: underline;
-        font-family: 'Karla', sans-serif;
-        font-size: 1.2rem;
-        color: white;
-        margin-bottom: 3rem;
-    
-    }
-
-    .right-login > .btn-login{
-        border-radius: 1rem;
-        width: 80vw; 
-        height: 3rem; 
-        margin-top: 1rem;
-        background-color: #61E0D9;
-        outline: none;
-        border: none;
-        font-family: 'Karla', sans-serif;
-        font-weight: 550;
-        font-size: 1.3rem;
-        color: white;
-        margin-bottom: 2rem;
-    }
-
-    .right-login > .Redes {
-        display: flex;
-        
-        justify-content: space-evenly;
-        width: 80vw;
-    }
+.left-login>.logo {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
 
 
-    .inferior-login{
-        border-radius: 2rem 2rem 0 0;
-        background-image: url(../images/Rectangle_Background.svg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width:100vw;
-        height: 20vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+.right-login {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+}
 
-    .inferior-login > p {
-        text-align: center;
-        color: white;
-        font-family: 'Karla', sans-serif;
-        font-size: 1.3rem;
-        margin: 0 4rem 1.5rem;
-    }
+.right-login>h1 {
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    font-family: 'Krona One', sans-serif;
+}
 
-    
-    .inferior-login > .btn-cadastro{
-        width: 40vw; 
-        height: 3rem; 
-        background-color: #61E0D9;
-        outline: none;
-        border: none;
-        font-family: 'Karla', sans-serif;
-        font-weight: 550;
-        font-size: 1.3rem;
-        color: white;
-    }
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.textfield>input {
+    width: 80vw;
+    height: 2rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 0.7rem;
+    background: rgba(255, 255, 255, 25%);
+    color: aliceblue;
+    font-size: 1rem;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+
+}
+
+.textfield>label {
+    font-family: 'Karla', sans-serif;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.right-login>p {
+    margin-left: auto;
+    text-decoration: underline;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 3rem;
+
+}
+
+.right-login>.btn-login {
+    border-radius: 1rem;
+    width: 80vw;
+    height: 3rem;
+    margin-top: 1rem;
+    background-color: #61E0D9;
+    outline: none;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    font-weight: 550;
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.right-login>.Redes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+
+.inferior-login {
+    border-radius: 2rem 2rem 0 0;
+    background-image: url(../images/Rectangle_Background.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inferior-login>p {
+    text-align: center;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3rem;
+    margin: 0 4rem 1.5rem;
+}
+
+
+.inferior-login>.btn-cadastro {
+    width: 40vw;
+    height: 3rem;
+    background-color: #61E0D9;
+    outline: none;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    font-weight: 550;
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+
+/* Pagina Perfil */
+
+
+.main-perfil {
+    font-family: 'Karla', sans-serif;
+}
+
+.text-perfil>h1 {
+    font-size: 1.4rem;
+    color: black
+}
+
+.text-perfil>p {
+    font-size: 1.2rem;
+    color: #8A8686;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.main-perfil {
+    background-color: #ffffff; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    margin: 20px; 
+    position: relative; 
+  }
+
+  .pen-edit {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    z-index: 1; 
+  }
+
+  .square-container {
+    background-color: #9AEFEA; 
+    border-radius: 10px;
+    width: 60vw;
+    height: 30vh;
+    margin: 2rem 0 2rem 2rem;
+    display: flex;
+    position: relative;
+  }
+
+ 
+  .square-container > img {
+    position: absolute;
+    top: 0.5rem; 
+    left: 0.5rem; 
+    z-index: 1; 
+  }
+
+ 
+   
+
 
 @media only screen and (min-width: 950px) {
 
-    .main-login{
+    .main-login {
         flex-direction: row;
     }
 
-    .left-login{
+    .left-login {
         width: 45vw;
         height: 100vh;
     }
 
-    .left-login > h1 {
+    .left-login>h1 {
         font-size: 3vw;
         margin-left: 6vw;
         margin: 0 0 2vw 6vw;
     }
 
 
-    .left-login > p {
+    .left-login>p {
         font-size: 1.4vw;
         margin: 0 6vw 4vw 6vw;
     }
 
-    .left-login > .btn-cadastro{
+    .left-login>.btn-cadastro {
         margin: 0 0 0 6vw;
-        width: 9vw; 
-        height: 3vw; 
+        width: 9vw;
+        height: 3vw;
         outline: none;
         border: none;
         font-family: 'Karla', sans-serif;
@@ -195,20 +256,20 @@
         color: white;
     }
 
-    .left-login > .logo {
-        width:30vw;
+    .left-login>.logo {
+        width: 30vw;
         position: absolute;
         top: 0;
-        margin: 2vw 0 0 6vw ;
+        margin: 2vw 0 0 6vw;
     }
 
-    .logo > img {
+    .logo>img {
         height: 3vw;
     }
 
 
 
-    .right-login{
+    .right-login {
         width: 55vw;
         height: 100vh;
         align-items: center;
@@ -220,67 +281,99 @@
         background-repeat: no-repeat;
     }
 
-    .right-login > h1 {
+    .right-login>h1 {
         font-size: 2.4vw;
         margin-bottom: 2.5vw;
     }
 
-    .textfield > input {
-        width:20vw;
+    .textfield>input {
+        width: 20vw;
         height: 3vw;
         font-size: 1vw;
     }
 
-    .textfield > label{
+    .textfield>label {
         margin-bottom: 1vw;
         margin-top: 1vw;
         font-size: 1.4vw;
     }
 
-    .right-login > p {
-       margin-right: auto;
-       margin-top: 2vw;
-       font-size: 1.4vw;
-    
+    .right-login>p {
+        margin-right: auto;
+        margin-top: 2vw;
+        font-size: 1.4vw;
+
     }
 
-    .right-login > .btn-login{
-        width:20vw;
+    .right-login>.btn-login {
+        width: 20vw;
         height: 3vw;
         margin-top: 1vw;
         font-size: 1.5vw;
         margin-bottom: 5vw;
     }
 
-    .right-login > .Redes {
+    .right-login>.Redes {
         display: flex;
         justify-content: space-evenly;
         width: 30vw;
     }
 
-    .pic-rede > img {
+    .pic-rede>img {
         height: 3vw;
     }
 
-    .inferior-login{
+    .inferior-login {
         display: none;
     }
+
+    /* Tela Perfil*/
+
+    .main-perfil{
+        margin: 3vw 8vw;
+
+    }
+
+    .box-perfil{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .square-container{
+        margin: 3vw;
+        height: 50vh;
+        width: 25vw;
+    }
+
+    .square-container > img {
+        width: 3vw;
+        height: 6vh;
+    }
+
+    .text-perfil-box {
+        margin: 3vw 7vw; 
+    }
+
+    .text-perfil > h1{
+        font-size: 3.2rem;
+    }
+
+    .text-perfil > p {
+        font-size: 3.0rem;
+    }
+    
+
+
 }
 
 @media only screen and (max-width: 950px) {
 
-    .left-login > p {
+    .left-login>p {
         display: none;
     }
 
-    .left-login > .btn-cadastro {
+    .left-login>.btn-cadastro {
         display: none;
     }
 
 }
-
-
-
-
-
- 
